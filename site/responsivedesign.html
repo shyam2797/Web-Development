@@ -21,7 +21,7 @@
 		.row {
 			width: 100%;
 		}
-		@media (min-width: 1200px)
+		@media (min-width: 900px)
 		{
 			.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-12,.col-lg-12 {
 				float: left;
@@ -64,11 +64,10 @@
 				width: 100%;
 			}
 		}
-	}
-	@media (min-width: 950px) and (max-width: 1199px)
+	    @media (min-width: 600px) and (max-width: 899px)
 		{
-			.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-12,.col-lg-12 {
-				float: left;
+			.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+				float: center;
 				border: 1px solid green;
 			}
 			.col-md-1 {
@@ -108,21 +107,58 @@
 				width: 100%;
 			}
 		}
-    }
+		@media (max-width: 599px)
+		{
+			.col-smd-1,.col-smd-2,.col-smd-3,.col-smd-4,.col-smd-5,.col-smd-6,.col-smd-7,.col-smd-8,.col-smd-9,.col-smd-10,.col-smd-11,.col-smd-12 {
+				float: center;
+				border: 1px solid green;
+			}
+			.col-smd-1 {
+				width: 8.33%;
+			}
+			.col-smd-2 {
+				width: 16.66%;
+			}
+			.col-smd-3 {
+				width: 25%;
+			}
+			.col-smd-4 {
+				width: 33%;
+			}
+			.col-smd-5 {
+				width: 41.66%;
+			}
+			.col-smd-6 {
+				width: 50%;
+			}
+			.col-smd-7 {
+				width: 58.33%;
+			}
+			.col-smd-8 {
+				width: 66.66%;
+			}
+			.col-smd-9 {
+				width: 75%;
+			}
+			.col-smd-10 {
+				width: 83.33%;
+			}
+			.col-smd-11 {
+				width: 91.66%;
+			}
+			.col-smd-12 {
+				width: 100%;
+			}
+		}
 	</style>
 </head>
 <body>
-	<h1> Responsive Design</h1>
-
+	
+    <h1> Responsive Design</h1>
 	<div class="row">
-		<div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 2 wow this is cool</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+		<div class="col-lg-4 col-md-6 col-smd-12"><p>Item 1</p></div>
+		<div class="col-lg-4 col-md-6 col-smd-12"><p>Item 2</p></div>
+		<div class="col-lg-4 col-md-4 col-smd-12"><p>Item 3</p></div>
 	</div>
 
 
